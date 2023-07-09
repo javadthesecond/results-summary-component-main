@@ -1,0 +1,143 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./images/pattern-background-desktop.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Outfit', sans-serif;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: hsl(0, 0%, 100%);
+    width: 450px;
+    height: 650px;
+    box-shadow: 5px 5px 20px hsl(246, 63%, 80%) ;
+    border-radius:20px ;
+}
+
+.img {
+    width: 100%;
+    height: 35%;
+
+}
+
+.img img {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
+}
+
+.head {
+    margin-top: 30px;
+}
+
+.head p {
+    font-weight:900;
+    font-size: 30px;
+    color: hsl(227, 13%, 21%);
+}
+
+.about {
+    text-align: center;
+    margin: 20px 50px ;
+    color:hsl(224, 23%, 55%);
+}
+
+.about p {
+    line-height: 24px;
+}
+
+.song-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: hsl(225, 100%, 98%);
+    height: 90px;
+    width: 360px;
+    border-radius: 10px;
+}
+
+.song-box img {
+    margin-right: 10px;
+}
+
+.song-box .n-p {
+    margin-right: 100px;
+    margin-left: 10px;
+}
+
+.song-box .name {
+    color: black;
+    margin-bottom: 7px;
+    font-weight: 700;
+}
+
+.song-box .price {
+    color: hsl(224, 23%, 55%);
+    font-weight: 600;
+}
+
+.song-box a {
+    color: hsl(245, 83%, 45%);
+    font-weight: 700;
+}
+
+.button {
+    margin: 30px 0 0 0;
+    width: 360px;
+    height: 50px;
+    background: hsl(245, 75%, 52%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 17px 40px hsl(246, 63%, 80%);
+}
+
+.button button {
+    border: none;
+    background: none;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    word-spacing: 1px;
+    font-weight: 700;
+}
+
+.footer {
+    margin-top: 20px;
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+
+
+.song-box a:hover {
+    color: hsl(253, 84%, 63%);
+    text-decoration: none;
+}
+
+.button:hover {
+    background:hsl(253, 84%, 63%);
+    cursor: pointer;
+}
+
+.footer:hover {
+    color: black;
+    cursor: pointer;
+}
